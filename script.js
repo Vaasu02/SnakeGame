@@ -14,9 +14,9 @@ let gamespeeddelay=200;
 let gamestarted=false;
 
 let audio=new Audio();
-audio.src="./audio/collisionsound.mp3";
+audio.src="collisionsound.mp3";
 let audio2=new Audio();
-audio2.src="./audio/audio.mp3";
+audio2.src="audio.mp3";
 // draw snake,food and map
 function draw(){
     board.innerHTML=``;
